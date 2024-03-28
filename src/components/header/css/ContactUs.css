@@ -1,0 +1,14 @@
+.contactUs {
+  filter: drop-shadow(0em 0.2em 0.1rem #00000033);
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid var(--primary-color);
+}
+
+.headerOptions .contactUs p {
+  padding: 1em 1.4em 0.8em 1.4em;
+  vertical-align: baseline;
+  line-height: 0.9em;
+  margin-right: 0em;
+  display: flex;
+}

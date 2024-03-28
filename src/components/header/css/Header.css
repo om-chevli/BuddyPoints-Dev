@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  border-radius: 25px;
+  background-color: white;
+  filter: drop-shadow(0 0 0.5em #00000033);
+  margin: 1em 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bpLogo {
+  margin-left: 7em;
+  padding: 0.2em;
+  filter: invert(89%) sepia(12%) saturate(292%) hue-rotate(84deg)
+    brightness(94%) contrast(83%);
+  mix-blend-mode: multiply;
+}
+
+.headerOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 50%;
+}
+
+.headerOptions p {
+  margin-right: 3.5em;
+  padding: 0em;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.selectedTab {
+  font-weight: 900;
+  text-decoration: underline;
+  font-size: 1.2em;
+  color: #79a0a0 !important;
+}

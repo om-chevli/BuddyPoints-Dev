@@ -1,0 +1,34 @@
+.categories-container-first{
+  background-color: var(--alt-bg-color);
+}
+.mainCategories,
+.subCategory {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Adjust the minmax value as needed */
+  gap: 15px; /* Adjust the gap between elements */
+  justify-content: center; /* Center align items horizontally */
+  padding: 1em;
+}
+
+.tile {
+  background-color: white;
+  border-radius: 25px;
+  filter: drop-shadow(0.2em 0.2em 0.3rem #00000033);
+  padding: 1em;
+  display: flex;
+  align-items: center; /* Center align content vertically */
+  justify-content: center;
+}
+
+.mainCategories img,
+.subCategory img {
+  height: 1.5em;
+  margin-right: 1vw;
+}
+
+.explore {
+  margin-left: 1.5em;
+}

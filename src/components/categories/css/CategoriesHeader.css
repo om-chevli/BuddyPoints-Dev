@@ -1,0 +1,16 @@
+.categoriesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  position: relative; /* Add position: relative */
+  background-color: var(--alt-bg-color);
+}
+
+.headerTitle {
+  font-size: 2em;
+  position: absolute; /* Add position: absolute */
+  left: 50%; /* Move to the horizontal center */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
