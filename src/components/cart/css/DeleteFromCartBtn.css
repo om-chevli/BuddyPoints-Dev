@@ -1,0 +1,10 @@
+.remove-item-btn {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  border-radius: 50%; /* Make it circular */
+  background-color: white; /* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+
+  /* justify-content: center;
+  align-items: center; */
+}
