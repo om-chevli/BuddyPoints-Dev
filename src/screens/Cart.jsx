@@ -1,4 +1,5 @@
 import CartList from "../components/cart/CartList";
+import CartTotal from "../components/cart/CartTotal";
 import Header from "../components/header/Header";
 
 const Cart = () => {
@@ -6,6 +7,7 @@ const Cart = () => {
     <>
       <Header />
       <CartList />
+      <CartTotal />
     </>
   );
 };

@@ -1,0 +1,9 @@
+.cart-total-container {
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+  padding: 1em 5em;
+  width: 50%;
+  display: flex;
+  margin: 0 auto; /* Horizontally center the container */
+  margin-top: 4em;
+}

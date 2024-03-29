@@ -36,7 +36,7 @@ const CartList = () => {
             <CustomTableCell>Name</CustomTableCell>
             <CustomTableCell>Quantity</CustomTableCell>
             <CustomTableCell>Price</CustomTableCell>
-            <CustomTableCell>Adjust Qty.</CustomTableCell>
+            <CustomTableCell align="center">Adjust Qty.</CustomTableCell>
             <CustomTableCell>Action</CustomTableCell>
           </TableRow>
         </TableHead>

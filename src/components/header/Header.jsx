@@ -5,7 +5,7 @@ import basketIcon from "../../assets/icons/Basket.svg";
 import "./css/Header.css";
 import ContactUs from "./ContactUs";
 import Favorites from "./Favorites";
-import Cart from "./Cart";
+import Cart from "./CartBtn";
 import Account from "./Account";
 
 const Header = () => {

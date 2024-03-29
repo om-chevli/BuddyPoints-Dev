@@ -17,12 +17,29 @@ const QuantityControl = ({ initialValue = 1 }) => {
   };
 
   return (
-    <Box display="flex" alignItems="center" sx={{ display: "flex" }}>
-      <Button onClick={decrementQuantity} variant="outlined" size="small">
+    <Box
+      display="flex"
+      alignItems="center"
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <Button
+        onClick={decrementQuantity}
+        variant="outlined"
+        size="small"
+        sx={{ minWidth: "2.2em" }}
+      >
         -
       </Button>
       <Typography variant="body1">{quantity}</Typography>
-      <Button onClick={incrementQuantity} variant="outlined" size="small">
+      <Button
+        onClick={incrementQuantity}
+        variant="outlined"
+        size="small"
+        sx={{ minWidth: "1em" }}
+      >
         +
       </Button>
     </Box>
